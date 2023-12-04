@@ -28,5 +28,22 @@ Below are the Entity-Relationship (ER), Enhanced Entity-Relationship (EER), and 
 
 ### ER Diagram
 
+![EER Diagram](EER_Diagram.png "EER Diagram")
+
 
 ### Logic Design
+
+![Logic Design](Logic_Diagram.png "Logic Design")
+
+
+## Usage Examples
+
+```sql
+-- Insert a new user address
+INSERT INTO `user_address` VALUES (3, 'Elm Street', 100, 'NY', 10001, 1);
+
+-- Add a new user
+INSERT INTO `user` VALUES (3, 'Ada', 'Lovelace', '1815-12-10', 333445555, '2023-04-01', 3, 7);
+
+-- Record a new account transaction
+INSERT INTO `account_transaction` VALUES (3, 'deposit', 3, 5000, '2023-04-01', 'pending');
